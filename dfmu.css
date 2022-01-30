@@ -4,7 +4,7 @@
   .sol.sol { background: orchid; color: #010101 }
   .luna.luna { background: #090909; color: hotpink }
   .jugo.jugo { background: hotpink; color: #090909 }
-  .metal.metal { background: silver; color: #090909 }
+  .metal.metal { background: seagreen; color: #090909 }
 }
 
 @media (prefers-contrast: more) {

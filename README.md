@@ -1,8 +1,5 @@
-# [`body`](index.html)
+# [mural](https://webmural.com/dfmu)
 
-## [help](../../issues/new)
-
-* [HTML](https://developer.mozilla.org/HTML)
-* [CSS](https://developer.mozilla.org/CSS)
-* [SVG](https://developer.mozilla.org/SVG)
-* [github](https://docs.github.com)
+* [HTML](index.html)
+* [CSS](dfmu.css)
+* [opensource](UNLICENSE.txt)
