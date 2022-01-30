@@ -1,22 +1,29 @@
 @media (color) {
   ::selection { background: #010101; color: orangered }
   .flora :not(.nativa) { color: inherit }
-  .sol.sol { background: gold; color: #090909 }
+  .sol.sol { background: orchid; color: #010101 }
   .luna.luna { background: #090909; color: hotpink }
   .jugo.jugo { background: hotpink; color: #090909 }
-  .metal.metal { background: silver; color: #090909 }
+  .metal.metal { background: seagreen; color: #090909 }
+}
+
+@media (prefers-contrast: more) {
+  .sol.sol { background: plum }
+  .luna.luna { color: pink }
+  .jugo.jugo { background: pink }
 }
 
 :link {
-  text-decoration-style: double;
-  box-shadow: 0 1ex 1em 0 violet;
-  border-radius: 0;
+  text-decoration-style: wavy;
+  text-shadow: 0 1ex 2em;
+  border-radius: 100%;
 }
 
 :focus {
-  box-shadow: 0 0 0 .2em #090909;
-  outline-style: dashed;
-  outline-width: .2em;
+  outline-color: currentColor;
+  outline-offset: .2ex;
+  outline-style: double;
+  outline-width: .8ex;
 }
 
 .mundo {
@@ -58,8 +65,13 @@
 .quote {
   box-sizing: border-box;
   padding: 1rem;
-  border-left: .25rem dashed;
+  border-left: 1rem groove darkmagenta;
   display: block;
+  min-height: 50vh;
+  word-spacing: 2pt;
+}
+
+.quote:target {
   min-height: 100vh;
 }
 
